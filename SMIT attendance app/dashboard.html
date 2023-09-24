@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>SMIT STUDENTS ATTENDANCE </title>
+    <link rel="stylesheet" href="dashboard.css">
+  </head>
+  <body>
+    <div id="container">
+      <br><br>
+      <h1><i>STUDENTS ATTENDANCE </i></h1>
+      <br><br>
+      <div id="input-container">
+        <input type="text" id="name-input" placeholder="Enter name"> 
+        <input type="email" id="email-input" placeholder="Enter email">
+        <button id="add-btn">Add</button>
+      </div> <br><br>
+      <table>
+        <thead>
+        <tr>
+            <th>Serial No</th>
+            <th>Name</th>
+            <th>EMAIL</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+      <div id="update-container">
+        <input type="text" id="update-name-input">
+        <input type="text" id="update-email-input">
+        <button id="update-btn">Update</button>
+        <button id="cancel-btn">Cancel</button>
+      </div>
+    </div>
+    <script src="dashboard.js"></script>
+  </body>
+</html>
